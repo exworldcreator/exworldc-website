@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.headerBox {
+    display: flex;
+    align-items: center;
+}
+
+.change-theme {
+    gap: 30px;
+}
+
+.headerImage {
+    margin-right: 20px;
+    transition: transform 0.1 linear;
+}
+
+.header-text-wrapped {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.header-text-wrapped p,
+.header-text-wrapped a {
+  margin: 0;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+.theme-button-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+#changeThemeButton {
+    padding: 1px 8px;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    background: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#changeThemeButton svg {
+    padding-top: 3px; 
+    padding-left: 1px;
+  }
+
+#changeThemeButton.dark-theme:hover {
+    border-color: white;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+#changeThemeButton.dark-theme {
+    border-color: rgb(134, 132, 132); /* Белая граница для тёмной темы */
+}
+
+#changeThemeButton.light-theme:hover {
+    background-color: #f0f0f0;
+    border-color: #555;
+}
+
+#changeThemeButton.light-theme {
+    border-color: #333;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+body.dark-theme {
+    background-color: #121212; 
+    color: white;
+  }

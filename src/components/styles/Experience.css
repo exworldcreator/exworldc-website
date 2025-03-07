@@ -1,0 +1,28 @@
+.experience-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience-item {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .time-period {
+    flex: 1;  
+    margin-right: 20px;
+  }
+  
+  .description {
+    flex: 3;
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+  

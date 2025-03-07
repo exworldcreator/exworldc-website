@@ -1,0 +1,30 @@
+.links-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link-item {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .link-name {
+    flex: 1.2; 
+    margin-right: 0;
+    font-size: 16px;
+  }
+  
+  .link-url {
+    font-size: 16px;
+    flex: 3;
+  }
+  
+  .link-item p {
+    margin: 0px 0;
+  }
+
+  .link-url p { 
+    font-size: 14px;
+  }
+  
