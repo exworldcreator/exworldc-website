@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Links from './components/Links';
 import { useFlyingEffect } from './hooks/useFlyingEffect';
 import Cat from './assets/images/cat.png';
+import { Helmet } from "react-helmet";
 
 function App() {
   const appBoxRef = useRef(null);
@@ -22,6 +23,9 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title> exworldc - Website</title>
+      </Helmet>
       <div className="App-Box" ref={appBoxRef}>
         <div className="cat-flying-image" ref={catImageRef}>
           <img src={Cat} alt="Cat Image" width="50" height="50" />
