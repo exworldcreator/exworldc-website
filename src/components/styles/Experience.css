@@ -16,6 +16,7 @@
   
   .description {
     flex: 3;
+    line-height: 1.5;
   }
   
   .experience-item p {
