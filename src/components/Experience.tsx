@@ -18,7 +18,7 @@ const Experience = () => {
           </div>
           <div className="experience-item">
             <div className="time-period">
-              <p>2024 Q1 - 2024 Q3</p>
+              <p>2024 Q1-Q3</p>
             </div>
             <div className="description">
               <p>Leading Solidity Developer - <a href="https://pfp3.io/">PFP3</a></p>
